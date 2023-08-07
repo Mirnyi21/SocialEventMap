@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Social Event Map</string>
+    <string name="login_text">Логин</string>
+    <string name="pass_text">Пароль</string>
+    <string name="go_text">Войти</string>
+    <string name="register_text">Зарегестрироваться</string>
+    <string name="login_ic">login_ic</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="who_are_you">Специальность</string>
+    <string name="date">Дата</string>
+    <string name="event_name">Название события</string>
+    <string name="event_place">Место события</string>
+    <string name="time">Время</string>
+    <string name="edit_ic">edit_ic</string>
+    <string name="my_event">Мои события</string>
+    <string name="map">Карта</string>
+    <string name="list">Список</string>
+    <string name="profile_user">Профиль</string>
+    <string name="new_event">Новое событие!</string>
+    <string name="fio">Имя Фамилия</string>
+    <string name="exit_text">Выйти</string>
+    <string name="avatar">avatar</string>
+    <string name="complete_btn">complete_btn</string>
 </resources>

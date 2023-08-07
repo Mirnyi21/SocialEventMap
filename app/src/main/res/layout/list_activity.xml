@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/my_event_navig"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FEFAFD"
+        android:drawableTop="@drawable/my_event_ic"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/map_navig"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/list_navig"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FEFAFD"
+        android:drawableTop="@drawable/list_ic_new"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/profile_navig"
+        app:layout_constraintStart_toEndOf="@+id/map_navig" />
+
+    <Button
+        android:id="@+id/profile_navig"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FEFAFD"
+        android:drawableTop="@drawable/profile_ic"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/list_navig" />
+
+    <Button
+        android:id="@+id/map_navig"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FEFAFD"
+        android:drawableTop="@drawable/map_ic"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/list_navig"
+        app:layout_constraintStart_toEndOf="@+id/my_event_navig" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_rv"
+        android:layout_width="409dp"
+        android:layout_height="581dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

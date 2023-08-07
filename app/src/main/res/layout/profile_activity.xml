@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/my_event_navig"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FEFAFD"
+        android:drawableTop="@drawable/my_event_ic"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/map_navig"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/list_navig"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FEFAFD"
+        android:drawableTop="@drawable/list_ic_new"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/profile_navig"
+        app:layout_constraintStart_toEndOf="@+id/map_navig" />
+
+    <Button
+        android:id="@+id/profile_navig"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FEFAFD"
+        android:drawableTop="@drawable/profile_ic"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/list_navig" />
+
+    <Button
+        android:id="@+id/map_navig"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FEFAFD"
+        android:drawableTop="@drawable/map_ic"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/list_navig"
+        app:layout_constraintStart_toEndOf="@+id/my_event_navig" />
+
+    <ImageButton
+        android:id="@+id/avatar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="109dp"
+        android:backgroundTint="#FEFAFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar_btn"
+        android:contentDescription="@string/avatar" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="160dp"
+        android:text="@string/fio"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_btn" />
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/exit_text"
+        app:layout_constraintBottom_toTopOf="@+id/list_navig"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
