@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284427931440",
+    "project_id": "socialeventmap",
+    "storage_bucket": "socialeventmap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284427931440:android:f5da9cd213d497082482f5",
+        "android_client_info": {
+          "package_name": "com.example.socialeventmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284427931440-jigahlq10984bq7spbqcdilto61mvs92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYHJbSvFcS1MO7gTX6rqBrbmA5kfs4aBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284427931440-jigahlq10984bq7spbqcdilto61mvs92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

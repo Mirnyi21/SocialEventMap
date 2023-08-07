@@ -22,4 +22,5 @@
     <string name="exit_text">Выйти</string>
     <string name="avatar">avatar</string>
     <string name="complete_btn">complete_btn</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
